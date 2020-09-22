@@ -2,7 +2,7 @@ extends RayCast2D
 
 var is_casting = false
 
-func _physics_process(delta):
+func _physics_process(_elta):
 	$Line2D.points[1] = cast_to
 
 func fire(pos):
